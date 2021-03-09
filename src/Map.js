@@ -26,7 +26,7 @@ class Mapp extends Component {
     render(){
         return(
             <div>
-                <div ref={el => this.mapContainer = el} style={{width: '80%', height: '80vh', margin: '0 auto'}}/>
+                <div ref={el => this.mapContainer = el} style={{width: '80%', height: '80vh', margin: '100px auto'}}/>
             </div>
         )
     }
