@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
 import mapboxgl from 'mapbox-gl';
+import 'react-map-gl-geocoder/dist/mapbox-gl-geocoder.css'
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3NvbWV0aW1lcyIsImEiOiJja20xbnF1ZWgwa2FjMm9tOXBpeWcxZ3l1In0.xtREw0TINY-mVkKPhIFy9Q'
 
@@ -24,6 +25,7 @@ const data = [
         "coordinates": [-118.2400, 34.0739]
     }
 ]
+
 
 class Mapp extends Component {
     constructor(props){
